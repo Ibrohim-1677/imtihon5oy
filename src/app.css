@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('./fots/roboto-mono-v21-latin-300.woff2') format('woff2'),
+         url('./fots/roboto-mono-v21-latin-300.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fots/roboto-mono-v21-latin-regular.woff2') format('woff2'),
+         url('./fots/roboto-mono-v21-latin-regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('./fots/roboto-mono-v21-latin-700.woff2') format('woff2'),
+         url('./fots//roboto-mono-v21-latin-700.woff') format('woff'); 
+  }
+  *{
+     box-sizing: border-box;
+ }
+ img{
+   vertical-align: middle;
+ }
+ .visually-hidden {
+      position: absolute ;
+      padding:0;
+      border:0;
+     margin: -1px;
+      height: 1px; 
+      width: 1px; 
+      overflow: hidden;
+ }
+ body{
+     font-family: "Roboto Mono" , Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden;
+ }
+ .container{
+     margin: 0 auto;
+     margin-left: 0 auto;
+ }
+ a{
+  text-decoration: none;
+ }
+ @media only screen and (max-width: 768px){
+
+  git git 
+  .container{
+    min-width: 768px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+ @media only screen and (max-width: 425px){
+  .container{
+    min-width: 425px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  @media only screen and (max-width: 375px){
+    .container{
+      min-width: 375px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+ } @media only screen and (max-width: 320px){
+  .container{
+    min-width: 320px;
+    padding-right:2px;
+    padding-left: 2px;
+  }
+ }
+ }
